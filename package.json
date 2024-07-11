@@ -1,0 +1,19 @@
+{
+  "name": "typescript-APIREST",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts",
+    "start": "node build/index.js",
+    "tsc": "tsc"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "express": "4.19.2"
+  }
+}
